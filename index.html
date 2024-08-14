@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="box" id="div-el">
+        <div class="heading">
+            <h2>Generate a</h2>
+            <h2 id="h">random password</h2>
+        </div>
+        <h4>Never use an insecure password again.</h4>
+        <button onclick="generatePassword()">Generate passwords</button>
+        <hr>
+        <div class="container">
+            <div class="passwordContainer" id="password1"></div>
+            <div class="passwordContainer" id="password2"></div>
+
+        </div>
+        <div class="buttoncopy">
+            <button onclick="copy1()" class="copy">copy password</button>
+            <button onclick="copy2()" class="copy two">copy password</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

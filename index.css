@@ -1,0 +1,109 @@
+body {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "karla";
+}
+
+.box {
+    background-color: #1F2937;
+    width: 600px;
+    height: 600px;
+    margin-top: 60px;
+
+}
+
+#h {
+    color: #4ADF86;
+    margin-top: -40px;
+}
+
+.heading {
+
+    font-size: 30px;
+   font-weight: 800;
+    margin-top: 115px;
+    margin-left: 50px;
+}
+h4{
+    color:#D5D4D8;
+    margin-left: 50px;
+    font-weight: 300;
+    font-family: "Karla",sans-serif;
+    margin-top: -30px;
+}
+button{
+    color:#FFFFFF;
+    background-color: #4ADF86;
+    width:191px;
+    height: 42px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    transition: 0.5s ease;
+}
+hr{
+    background-color: #2F3E53;
+    width:470px;
+    text-align: center;
+    margin-top: 30px;
+    border: none;
+    height: 1px;
+    margin-left:50px ;
+
+}
+.passwordContainer{
+    width: 215px;
+    height: 40px;
+    border: none;
+    background-color: #273549;
+    border-radius: 6px;
+    margin-top: 20px;
+   text-align: center;
+   color: #4ADF86;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container{
+    display: flex;
+    margin-left:50px ;
+    text-align: center;
+
+}
+#password1{
+    margin-right: 40px;
+}
+button:hover{
+    color: #4ADF86;
+    background-color: #273549;
+    border: 2px solid  #4ADF86;
+    cursor: pointer;
+}
+.copy{
+    color:#FFFFFF;
+    background-color: #4ADF86;
+    width:120px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    transition: 0.5s ease;
+    margin:20px 80px 60px;
+}
+.two{
+
+    margin-right: 100px;
+
+}
+.buttoncopy{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
